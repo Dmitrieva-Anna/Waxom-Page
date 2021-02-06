@@ -74,7 +74,6 @@
   background-image: url(img/bg_photo_11949.jpg);
   background-repeat: no-repeat;
   min-height: 1024px;
-  /*padding: 20px;*/
   background-color: rgba(17, 17, 17, 0.7);
   background-size: cover;
   background-origin: border-box;
@@ -86,12 +85,6 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  /*background-image: url(img/bg_photo_11949.jpg);
-    background-repeat: no-repeat;
-    min-height: 1024px;
-    /*padding: 20px;*/
-  /*background-color: red;
-    background-origin: border-box;*/
 }
 
 .content_container {
@@ -125,13 +118,11 @@
 }
 
 .logo {
-  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 181px;
   text-decoration: none;
-  /*background-color: #484642;*/
   color: #fff;
 }
 
@@ -142,7 +133,6 @@
 .logo-txt {
   font-family: 'raleway', 'arial', sans-serif;
   font-size: 34px;
-  /* Approximation due to font substitution */
   font-weight: 400;
   text-align: right;
 }
@@ -161,11 +151,9 @@ input[type="search"] {
   height: 25px;
   outline: none;
   background-image: url(img/icon_search.svg);
-  /*url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png');*/
   background-size: contain;
   background-repeat: no-repeat;
-  border: /*1px solid #998675;*/
-  none;
+  border: none;
 }
 
 .head_search {
@@ -184,7 +172,6 @@ input[type="search"]:focus {
 .main-link-basket {
   width: 18px;
   height: 24px;
-  /*background-color: #484642;*/
   margin-right: 15px;
   background-color: transparent;
   color: white;
@@ -305,25 +292,6 @@ input[type="search"]:focus {
   clip: rect(0 0 0 0);
 }
 
-/* .features {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /*width: 300px;*/
-
-/*padding: 10px 10px 0 10px;
-    box-sizing: border-box;
-    border: 1px solid black; 
-  }*/
-
-/* .features:after {
-    content: "";
-    display: block;
-    width: 150px;
-    height: 3px;
-    background-color: brown;
-  }*/
-
 .features {
   box-sizing: border-box;
   margin-bottom: 83px;
@@ -396,14 +364,6 @@ input[type="search"]:focus {
   background-color: #c7b299;
 }
 
-/* .features-icon:after {
-    content: "";
-    display: block;
-    width: 150px;
-    height: 3px;
-    background-color: brown;
-  }*/
-
 .services_title {
   font-family: 'raleway', 'arial', sans-serif;
   font-size: 30px;
@@ -429,7 +389,6 @@ input[type="search"]:focus {
 }
 
 .multi-photo {
-  /*width: 100%;*/
   min-height: 482px;
   background-image: url(img/browser_center_10768.jpg), url(img/browser_left_10769.jpg), url(img/browser_right_10770.jpg);
   background-size: 63%, 60%, 60%;
@@ -438,7 +397,6 @@ input[type="search"]:focus {
 }
 
 .multi_line_main {
-  /*width: 1920px;*/
   min-height: 150px;
   background-color: #f4f5f8;
   background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
@@ -451,7 +409,6 @@ input[type="search"]:focus {
 }
 
 .multi_line {
-  /*padding: 48px 0 49px 0;*/
   margin: 48px 0 49px 110px;
 }
 
@@ -680,21 +637,8 @@ input[type="search"]:focus {
 .video {
   position: relative;
   padding-bottom: 63%;
-  /*padding-top: 25px;*/
   height: 0;
 }
-
-/* .poster {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  /*background-image: url(img/bg_photo.png);
-  background-size: cover;
-  z-index: 1;
-  text-align: center;
-}*/
 
 .poster_wrapper {
   position: absolute;
@@ -809,7 +753,6 @@ input[type="search"]:focus {
 }
 
 .statistic_line_main {
-  /*width: 1920px;*/
   min-height: 300px;
   background-color: #f4f5f8;
   background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
@@ -822,7 +765,6 @@ input[type="search"]:focus {
   list-style: none;
   justify-content: space-around;
   flex-wrap: wrap;
-  /*margin-bottom: 116px;*/
   padding: 0;
   padding-top: 69px;
   padding-bottom: 60px;
@@ -1018,10 +960,6 @@ input[type="search"]:focus {
 .footer_about {
   min-width: 290px;
   flex-basis: 22%;
-}
-
-.footer_about_img {
-  /*margin-bottom: 30px;*/
 }
 
 .footer_about_title {
@@ -1231,6 +1169,9 @@ input[type="search"]:focus {
     margin: 0 auto;
     max-width: 605px;
   }
+  .head_nav_list {
+    width: 73%;
+  }
   .photo_version_mobile {
     display: none;
   }
@@ -1277,5 +1218,11 @@ input[type="search"]:focus {
     width: 30px;
     height: 30px;
     margin: 0 10px;
+  }
+  .head_left_button {
+    display: none;
+  }
+  .head_right_button {
+    display: none;
   }
 }
