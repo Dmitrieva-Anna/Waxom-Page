@@ -2,94 +2,70 @@
   font-family: 'montserrat';
   src: url(../Final_Project/fonts/montserrat/montserrat-regular.woff);
   font-weight: normal;
-  font-style: normal;  
-}
+
 @font-face {
   font-family: 'montserrat';
   src: url(../Final_Project/fonts/montserrat/montserrat-light.woff);
   font-weight: 300;
-  font-style: normal; 
-}
+
 @font-face {
   font-family: 'montserrat';
   src: url(../Final_Project/fonts/montserrat/montserrat-extraLight.woff);
   font-weight: 200;
-  font-style: normal; 
-}
+<<<<
 @font-face {
   font-family: 'roboto';
   src: url(../Final_Project/fonts/roboto/roboto-regular.woff);
   font-weight: 400;
-  font-style: normal;  
-}
+<<
 @font-face {
   font-family: 'raleway';
   src: url(../Final_Project/fonts/raleway/raleway-semiBold.woff);
   font-weight: 600;
-  font-style: normal;  
-}
+
 @font-face {
   font-family: 'raleway';
   src: url(../Final_Project/fonts/raleway/raleway-regular.woff);
   font-weight: 400;
-  font-style: normal;  
-}
+<<
 @font-face {
   font-family: 'raleway';
   src: url(../Final_Project/fonts/raleway/raleway-bold.woff);
   font-weight: 700;
-  font-style: normal;  
-}
+<
 @font-face {
   font-family: 'raleway';
   src: url(../Final_Project/fonts/raleway/raleway-extraBold.woff);
   font-weight: 800;
-  font-style: normal;  
-}
+
 @font-face {
   font-family: 'raleway';
   src: url(../Final_Project/fonts/raleway/raleway-medium.woff);
   font-weight: 500;
-  font-style: normal;  
+
 }
-.content {
-    margin: 0 auto;
-    max-width: 1920px;
-}
-.main-header{
+
+.main-header {
   background-image: url(img/bg_photo_11949.jpg);
   background-repeat: no-repeat;
   min-height: 1024px;
-  /*padding: 20px;*/
-  background-color: rgba(17,17,17,0.7);
+  background-color: rgba(17, 17, 17, 0.7);
   background-size: cover;
   background-origin: border-box;
   padding: 62px 30px 40px;
+  margin-bottom: 89px;
 }
+
 .box-title {
   display: flex;
   width: 100%;
   justify-content: space-between;
 
-
-    /*background-image: url(img/bg_photo_11949.jpg);
-    background-repeat: no-repeat;
-    min-height: 1024px;
-    /*padding: 20px;*/
-    /*background-color: red;
-    background-origin: border-box;*/
-}
 .content_container {
   max-width: 1230px;
   padding: 0 30px;
   margin: 0 auto;
-}
-.head_nav_list{
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-}
+
 .head_nav_lis_item {
   text-decoration: none;
   margin-right: 30px;
@@ -100,176 +76,46 @@
   font-style: normal;
   color: #ffffff;
 }
-.head_nav_lis_item:hover {
-  color:  #c7b299;
-}
 
-.logo {
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 181px;
-    text-decoration: none;
-    /*background-color: #484642;*/
-    color: #fff;
   }
-  
-  .logo-svg {
-    fill: currentColor;
+  .multi-photo {
+    display: none;
   }
-  
-  .logo-txt {
-    font-family: Raleway;
-    font-size: 34px;/* Approximation due to font substitution */
-    font-weight: 400;
-    text-align: right;
+  .projects_but_list, .projects_but_list, .posts_list {
+    padding: 0;
   }
-  
-  .logo:hover{
-    color: #998675;
+  .text_video, .time_video, .title_video, .logo-txt {
+    display: none;
   }
-  input[type="search"] {
-    width: 40px;
-    height: 40px;
-    outline: none;
-    background-image: url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    border: 1px solid #c7b299;
+  .partners_list_item {
+    margin-bottom: 30px;
   }
-  .head_search {
-    width: 25px;
-    height: 25px;
-    background-color: transparent;
+  .version_mobile {
+    text-align: center;
   }
-  
-  input[type="search"]:focus {
-    width: 300px;
-    transition: width 1s ease-out;
-    background-position: right;
-  }
-  .main-link-basket {
-    width: 18px;
-    height: 24px;
-    /*background-color: #484642;*/
+  .version_mobile_list {
+    margin: 0 auto;
+    text-align: left;
   }
   .head_slider {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 30px;
-    box-sizing: border-box;
   }
- 
-  .head_title {
-    max-width: 598px;
-    font-family: 'raleway', 'arial', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: white;
-    text-align: center;
-    margin: 0;
-    padding: 300px;
-  }
-  .head_title_first {
-    font-size: 36px;
-    line-height: 1.2;
-    font-weight: 500;
-    color: #ffffff;
-    margin: 0;
+  .box-title {
     padding: 0;
-    margin-bottom: 14px;
+    margin: auto;
   }
-  .head_title_second {
-    font-size: 52px;
-    line-height: 1.2;
-    font-weight: 800;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 19px;
+  .logo {
+    width: 25%;
   }
-  .head_title_text {
-    font-family: 'montserrat', 'arial', sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0;
-    margin-bottom: 52px;
-  }
-  .head_button {
-    width: 170px;
-    height: 53px;
-    background-color: #998675;
-    border-radius: 3px;
-    font-family: 'raleway', 'arial', sans-serif;
-    font-size: 14px;
-    line-height: 23px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #ffffff;
+  .project_all_first_btn_search, .project_all_first_btn_link {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
   }
   .head_left_button {
-    width: 40px;
-    height: 75px;
-    background-color: transparent;
-    background-image: url(img/left_button.svg);
+    display: none;
   }
   .head_right_button {
-    width: 40px;
-    height: 75px;
-    background-color: transparent;
-    background-image: url(img/right_button.svg);
+    display: none;
   }
-  .features {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 300px;
-    padding: 10px 10px 0 10px;
-    box-sizing: border-box;
-    /* border: 1px solid black; */
-  }
-  
-  .features:after {
-    content: "";
-    display: block;
-    width: 150px;
-    height: 3px;
-    background-color: brown;
-  }
-  
-  .features:hover .features-icon {
-    fill: gold;
-  }
-  
-  .features:hover .features-title {
-    color: gold;
-  }
-  
-  .features:hover:after {
-    background-color: gold;
-  }
-  
-  .features-icon {
-    display: block;
-    fill: brown;
-    margin: 0 0 20px 0;
-  }
-  .multi-photo {
-    width: 80%;
-    min-height: 700px;
-    background-image: url(img/browser_left_10769.jpg),
-                      url(img/browser_center_10768.jpg),
-                      url(img/browser_right_10770.jpg);
-  
-    background-size: 60%, 40%, 40%;
-    background-repeat: no-repeat;
-    background-position: bottom center, bottom left, bottom right;
-  }
-  
+}
